@@ -1,0 +1,20 @@
+@keyframes minima-mobile{
+  0%{
+    bottom: -10vh;
+  }
+  30%{
+    bottom: -12vh;
+  }
+  100%{
+    bottom: 0;
+  }
+}
+
+@keyframes part-open{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

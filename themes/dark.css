@@ -1,0 +1,110 @@
+:root, body{
+  color: rgba(90%, 90%, 90%);
+}
+
+html, body, section{
+  background: #666
+}
+
+nav{
+  border: none;
+  background: #5c5c5c;
+}
+
+section:not(.part){
+  background: rgba(0, 0, 0, 0.1);
+}
+
+section:not(.part):hover{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+a:hover, a.active{
+  background: #555;
+}
+
+.d-tab-select a:hover, .d-tab-select a:focus, .d-tab-select:not(:hover) a.active{
+  background: #555;
+}
+
+form{
+  background: #222;
+}
+
+form:hover{
+  background: #292929;
+}
+
+input, form input, select, form select{
+  background: #444;
+  color: white;
+}
+
+input:hover, form input:hover, select:hover, form select:hover{
+  background: #555;
+}
+
+input:active, input:focus, form input:active, form input:focus
+, select:active, select:focus, form select:active, form select:focus{
+  background: #111;
+}
+
+table{
+  background: #222;
+}
+
+td{
+  background: #444;
+}
+
+ol{
+  background: #222;
+}
+
+ol li::before{
+  background: #666;
+}
+
+.dropdown{
+  background: #555;
+  border: 2px solid #444;
+  color: #bbb;
+}
+
+.dropdown::after{
+  background: #555;
+  border: 2px solid #444;
+  color: #bbb;
+}
+
+.dropdown-menu{
+  background: #555;
+  border: 2px solid #444;
+}
+
+.menu, .mobile.active{
+  background: #444;
+}
+
+.mobile.active::before{
+  background: #666;
+  color: #444;
+}
+
+.edge:hover, .edge.active{
+  background-color: #414f5d;
+}
+
+@media screen and (max-width: 800px){
+  .mobile{
+    background: #444;
+  }
+}
+
+::-webkit-input-placeholder {
+  color: rgb(90%, 90%, 90%);
+}
+
+.tab-select a:hover, .tab-select:not(:hover) a:focus, .tab-select:not(:hover) a.active {
+  background-color: #4e4e4e;
+}

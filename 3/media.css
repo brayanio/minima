@@ -1,0 +1,23 @@
+/* printer */
+@media print{
+  .no-print, [no-print]{
+    display: none;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 800px){
+  :root{
+    font-size: .92rem;  
+  }
+
+  form{
+    width: 98%;
+    margin-left: 1%;
+  }
+  
+  .sidebar{
+    border-right: none;
+    border-bottom: 6px solid var(--level0);
+  }
+}
